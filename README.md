@@ -22,32 +22,6 @@ No contexto deste projeto:
 - Indica quando não existe rota possível
 - Suporta redes modificáveis sem necessidade de recompilação (basta editar o arquivo de entrada)
 
-🗺 Estrutura do Grafo (Arestas)
-
-A rede logística utilizada contém as seguintes rotas:
-
-De	Para	Peso
-A	  B	    5
-A	  C	    3
-B	  C	    2
-B	  G	    1
-B	  E	    3
-C	  E	    7
-C	  D	    7
-D	  A	    2
-D	  F	    6
-F	  E	    1
-G	  E	    1
-
-📍 Mapeamento dos vértices
-A = 0
-B = 1
-C = 2
-D = 3
-E = 4
-F = 5
-G = 6
-
 💻 Implementação — Principais Componentes
 📌 Função menorDistancia()
 
@@ -79,17 +53,6 @@ O algoritmo retorna:
 
 - Distância mínima
 - Caminho reconstruído cidade por cidade
-
-Exemplo de alguns resultados:
-
-Cidade	Menor Distância	Caminho
-A	      0	              A
-B	      5	              A → B
-C	      3	              A → C
-E	      7	              A → B → G → E
-D	      9	              A → B → G → E → D
-F	      8	              A → B → G → E → F
-G	      6	              A → B → G
 
 👩‍💻 Autores
 - Bianca Milani
