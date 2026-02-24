@@ -1,8 +1,8 @@
-🔍 Algoritmo de Dijkstra em C — Otimização de Rotas em Rede Logística
+Algoritmo de Dijkstra em C — Otimização de Rotas em Rede Logística
 
 Este projeto implementa o Algoritmo de Dijkstra em linguagem C para calcular o menor caminho entre uma cidade de origem e todas as demais em uma rede logística modelada como grafo direcionado e ponderado. O trabalho foi desenvolvido como parte da disciplina LCII (Laboratório de Computação II), aplicando conceitos de grafos, caminhos mínimos, matriz de adjacência, alocação dinâmica e leitura de arquivos externos.
 
-🧠 Sobre o Algoritmo
+Sobre o Algoritmo
 
 O Algoritmo de Dijkstra é utilizado para determinar o menor custo/tempo de deslocamento entre um ponto inicial e todos os outros vértices de um grafo, desde que todos os pesos sejam não negativos.
 
@@ -13,7 +13,7 @@ No contexto deste projeto:
 - A matriz é preenchida com INF (INT_MAX) para indicar ausência de rota.
 - O menor caminho é reconstruído usando o vetor anterior[].
 
-📌 Funcionalidades do Programa
+Funcionalidades do Programa
 
 - Leitura da rede logística a partir de um arquivo entrada.txt
 - Recebe a cidade de origem escolhida pelo usuário
@@ -22,12 +22,12 @@ No contexto deste projeto:
 - Indica quando não existe rota possível
 - Suporta redes modificáveis sem necessidade de recompilação (basta editar o arquivo de entrada)
 
-💻 Implementação — Principais Componentes
-📌 Função menorDistancia()
+Implementação — Principais Componentes
+Função menorDistancia()
 
 - Identifica o próximo vértice não visitado com a menor distância acumulada.
 
-📌 Função dijkstra()
+Função dijkstra()
 
 - Inicializa vetores distancia[], visitado[] e anterior[]
 - Percorre o grafo realizando relaxamento das arestas
@@ -35,14 +35,14 @@ No contexto deste projeto:
 - Reconstrói o caminho final de cada cidade
 - Exibe as distâncias e trajetos encontrados
 
-📌 Entrada via Arquivo .txt
+Entrada via Arquivo .txt
 
 - Permite definir ordem, arestas, pesos e vértices
 A execução é feita via linha de comando:
 
 .\AlgoritmoDijkstra.exe entrada.txt
 
-📌 Grafo definido por Matriz de Adjacência
+Grafo definido por Matriz de Adjacência
 
 - Matriz 7×7
 - Valores representam peso da rota ou INF quando não há ligação direta
@@ -54,7 +54,7 @@ O algoritmo retorna:
 - Distância mínima
 - Caminho reconstruído cidade por cidade
 
-👩‍💻 Autores
+Autores
 - Bianca Milani
 - Ana Beatriz Costa
 - Sara Andrade
