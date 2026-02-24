@@ -1,4 +1,4 @@
-Algoritmo de Dijkstra em C — Otimização de Rotas em Rede Logística
+# Algoritmo de Dijkstra em C — Otimização de Rotas em Rede Logística
 
 Este projeto implementa o Algoritmo de Dijkstra em linguagem C para calcular o menor caminho entre uma cidade de origem e todas as demais em uma rede logística modelada como grafo direcionado e ponderado. O trabalho foi desenvolvido como parte da disciplina LCII (Laboratório de Computação II), aplicando conceitos de grafos, caminhos mínimos, matriz de adjacência, alocação dinâmica e leitura de arquivos externos.
 
